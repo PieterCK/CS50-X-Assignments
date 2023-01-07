@@ -3,14 +3,13 @@
 # Pieter's Solutions for CS50 Courses' Assignments
 
 #### Hello!
-This repository contains two folders housing all my solutions for the assignments from Harvard's CS50 courses I've taken so far;
+This repository contains two folders housing all my solutions for the assignments from the first Harvard's CS50 course I've taken so far;
 ```
 CS50X: Introduction to The Art of Computer Science and programming,
-CS50W: Web Development Using Python & JavaScript.
 ```
 Feel free take a look and please do excuse my earlier solutions which is quite rough & messy since I practically have no coding experience prior to taking this course.
 
-Below I've listed the name assignments for the first course, CS50X as well as links to the specifications of each assignments:
+Below I've listed the name assignments of CS50X for context as well as links to the specifications of each assignments:
 
 ##### C
 1. Problem Set 1: Hello, Mario-More & Credit(https://cs50.harvard.edu/x/2022/psets/1/)
