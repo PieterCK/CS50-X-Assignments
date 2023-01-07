@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding:0;
+}
+.body {
+        background-image: url('https://spiritsandsuch.com/wp-content/uploads/2019/02/repeatingbackground.jpg');
+        background-position: top center;
+        background-repeat: repeat;
+        font-family: Georgia, "Times New Roman", serif;
+        color: #000000;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+.body2 {
+        background-image: url('source_img/bgtwo.PNG');
+        background-position: top center;
+        background-repeat: repeat;
+        font-family: Georgia, "Times New Roman", serif;
+        color: #000000;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+#cyanbox{
+    background-color:#0BB;
+}
+.title2{
+    padding: 20px 0px 0px 0px;
+    font-size: 28px;
+    background: linear-gradient(180deg, cyan, blue, purple, red, yellow, green);
+    background-size: 30% 30%;
+    -webkit-text-stroke: 8px transparent;
+    -webkit-background-clip: text;
+    color: orange;
+    transform: scaleY(2.1);
+    letter-spacing: 6px;
+    max-height: 70%;
+    max-width: 200%;
+    }
+body{
+    cursor: url('source_img/bluesor.cur'), auto;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    color: #000;
+    margin: 0 auto;
+    padding: 2.5rem 2.5rem 3.5rem 2.5rem;
+    text-align: center;
+
+}
+
+.section {
+    margin-top:0;
+    padding: 0rem 20rem 0rem 20rem;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 22px;
+    letter-spacing: 1px;
+
+}
+
+.enter{
+    width:480px;
+    height:120px;
+    text-align: center;
+
+}
+.section2 {
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    color: #a00;
+
+}
+.section3 {
+    margin-top:0;
+    font-size: 32px;
+    letter-spacing: 0.2px;
+    padding: 0rem 20rem 0rem 20rem;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    color:#0FF
+
+}
+.s_gif{
+    width: 100px;
+    height: 100px;
+}
+#Coloumns{
+    color:#FFF;
+    text-align: center;
+
+}
+#banner{
+    margin-top:0;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 110%;
+    height: 110%;
+}
+#banner2{
+    margin-top:0;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+}
+#p_right1{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    max-width:100%;
+
+}
+#p_right2{
+    position: absolute;
+    right: 180px;
+    top: 250px;
+    max-width:100%;
+
+}
+#p_right3{
+    position: absolute;
+    right: 1050px;
+    top: 110px;
+    max-width:100%;
+
+}
+#p_right4{
+    position: absolute;
+    right: 1050px;
+    top: 350px;
+    max-width:100%;
+}
+
+.visitor{
+    font-family: "Cursed Timer", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	background: #000000;
+	color: #59e62f;
+	padding: 0.25em;
+	letter-spacing: 2px;
+	border: inset;
+}
+
+.section4 {
+    margin-top:0;
+    padding: 0rem 20rem 0rem 20rem;
+    text-align: center;
+    font-family: 'arial';
+    font-size: 22px;
+    letter-spacing: 1px;
+    color:#aaa;
+
+}
+
+button, input[type="submit"] {
+    background-color: #d9edff;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+}
+
+
+input[type="text"] {
+    line-height: 1.8;
+    width: 25%;
+}
+
+input[type="text"]:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+
+@media only screen and (max-width:800px){
+    .section {
+
+        font-family: 'Press Start 2P';
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        margin-top:0;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        width: 70%;
+        height: 70%;
+    }
+    .section2 {
+        font-family: 'Press Start 2P';
+        font-size: 16px;
+        color: #a00;
+        margin-top:0;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        width: 70%;
+        height: 70%;
+
+    }
+    .section3 {
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        font-family: 'Comic Sans MS';
+        color:#0FF;
+        margin-top:0;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        width: 70%;
+        height: 70%;
+    }
+    .body {
+        background-image: url('https://spiritsandsuch.com/wp-content/uploads/2019/02/repeatingbackground.jpg');
+        background-position: top center;
+        background-repeat: repeat;
+        font-family: Georgia, "Times New Roman", serif;
+        color: #000000;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 100%;
+    }
+    #banner{
+        margin-top:0;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        width: 70%;
+        height: 70%;
+    }
+
+    #p_right1{
+        display:none;
+    }
+
+    #p_right2{
+        display:none;
+
+    }
+    #p_right3{
+        display:none;
+
+    }
+    #p_right4{
+        display:none;
+
+    }
+}

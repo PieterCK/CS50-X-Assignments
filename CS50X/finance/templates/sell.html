@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+<div class="containerstock">
+    <h2 class="mb-3">Sell stonks here!</h2>
+    <div class="row">
+    <form action="/sell" method="post">
+        <table>
+            <tr>
+                <th>
+                    <select name="symbol" onchange="sell(this.value);">
+                    <option value="">Select Stonks: </option>
+                    {%for stocks in compiledinf%}
+                    <option value="{{stocks["symbol"]}}">{{stocks["symbol"]}}</option>
+                    {%endfor%}
+                    </select>
+                </th>
+                <th>
+                    <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="share" name="shares" placeholder=" # of lot " type="int">
+                </th>
+                <th>
+                    <button class="btn btn-primary" type="submit">Sell</button>
+                </th>
+            </tr>
+        </table>
+    </form>
+    </div>
+
+    <div>
+        <table >
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Price Bought</th>
+                    <th>Quantity</th>
+
+                </tr>
+            </thead>
+            <tbody id="stinkfo">
+                <tr>
+                    <th>
+                        -
+                    </th>
+                    <th>
+                        -
+                    </th>
+                    <th>
+                        -
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Because the time it took sort 1 to sort through a sorted file is the same as the time it took to sort through reversed datas. sort1 is not merger sort because the time it took too sort the same set of data of the same amount is slower than sort 2
+
+sort2 uses: Merge Sort
+
+How do you know?: Sort 2 also have same duration of sorting through sorted and unsorted files, however it is comparably faster than sort 1. Theta of a merge sort is Log n which is faster than theta of selection sort which is theta of n2
+
+sort3 uses: Selection Sort
+
+How do you know?: Sort 3 is bubble sort because the duration needed to sort through a sorted file is faster than the time it need to sort through randomized or even reversed data.

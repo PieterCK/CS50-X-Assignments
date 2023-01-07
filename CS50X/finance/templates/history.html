@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+<div class="container text-center" id="Coloumns">
+            <h2>History</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Company</th>
+                        <th>Transaction</th>
+                        <th>Price</th>
+                        <th>Shares</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {%for stocks in compiledinf%}
+                    <tr>
+                        <td>{{stocks["symbol"]}}</td>
+                        <td>{{stocks["company"]}}</td>
+                        <td>{{stocks["type"]}}</td>
+                        <td>{{stocks["price"] | usd}}</td>
+                        <td>{{stocks["shares"]}}</td>
+                        <td>{{stocks["date"]}}</td>
+                    </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+</div>
+
+    {% endblock %}

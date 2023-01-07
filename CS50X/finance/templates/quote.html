@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <h2 class="mb-3">Search stonks here!</h2>
+    <form action="/quote" method="post">
+        <div class="mb-2">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="quote" name="symbol" placeholder=" 'GGRM' " type="text">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    </form>
+    <div>
+        <table >
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Symbol</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>{{s_info["name"]}}</td>
+                        <td>{{s_info["symbol"]}}</td>
+                        <td>{{s_info["price"]|usd}}</td>
+
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

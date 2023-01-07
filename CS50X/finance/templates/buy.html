@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+<div class="containerstock">
+    <h2 class="mb-3">Buy stonks here!</h2>
+    <p>Your Cash:{{compiledinf["cash"] | usd }} </p>
+    <p>Your Equity: {{compiledinf["equity"] | usd}}</p>
+    <p>Your Stonks: {{compiledinf["list"]}}</p>
+
+    <div>
+        <table >
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Amount</th>
+                    <th>Buy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <form action="/buy" method="post">
+                    <tr>
+                        <td>
+                            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="quote" name="symbol" placeholder=" 'GGRM' " type="text">
+                        </td>
+                        <td>
+                            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="share" name="shares" placeholder=" # of lot " type="int">
+                        </td>
+                        <td>
+                            <button class="btn btn-primary" type="submit">Buy</button>
+                        </td>
+                    </tr>
+                </form>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
